@@ -1,0 +1,182 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(201, 194, 194);
+  display: flex;
+  flex-direction: column;
+}
+.blue-nav {
+  width: 220vh;
+  height: 5vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(233, 235, 235);
+  text-decoration: none;
+}
+.flip {
+  color: azure;
+}
+.search-box {
+  width: 300px;
+}
+
+.white-nav {
+  background-color: white;
+  color: black;
+  border-width: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+ 
+ 
+}
+#ref1 {
+  color: azure;
+  text-decoration: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: rgb(226, 224, 224);
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.first2 {
+  background-color: white;
+    height: 10vh;
+  margin-left: 40px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.first1{
+  display: flex;
+  flex-direction: column;
+}
+.second{
+  background-color: white;
+  height:75vh ;
+  width: 60vh;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 10px;
+
+}
+
+#img1{
+      width: 50px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 5px;
+}
+.name1{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+
+.third {
+  background-color: white;
+
+  width: 80vw;
+  height: 90vh;
+}
+
+
+.Personal{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.name2{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+#ref5{
+width: 50vh;
+height: 35px;
+}
+.gender{
+  margin-top: 30px;
+  margin-left: 20px;
+  gap: 10px;
+}
+.radio{
+  display: flex;
+  flex-direction: row;
+margin-top: 10px;
+gap: 25px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#ref7{
+  color: blue;
+}
+.inputmail{
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.number{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.numinput{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#ref8{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+
